@@ -11,6 +11,20 @@ class QuotesController < ApplicationController
 
     # @quotes = Quote.all.includes(:author).as_json(include: { author: { only: [:name] } })
 
+
+    #   json = Quote.all.map do |quote|
+    # {       
+    #   id: quote.id,
+    #   contents: quote.contents,
+    #   author: quote.author
+      
+    # }
+  # end
+
+  # render json: json
+  #    render json: @quotes, :include => {:author => {:only => :name}}
+
+
   end
 
   # GET /quotes/1

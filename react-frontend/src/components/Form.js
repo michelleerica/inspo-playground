@@ -9,8 +9,6 @@ export default class Form extends Component{
       quote: '',
       author_id: '',
 
-
-
     }
 
     this._handleChange = this._handleChange.bind(this);
@@ -40,6 +38,9 @@ export default class Form extends Component{
 
 
   render(){
+
+    
+
     return (
       <div>
         <form onSubmit={this._submitForm}>
